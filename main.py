@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+'''
+$Id$
+'''
+
 import controller
 
 from google.appengine.ext import webapp

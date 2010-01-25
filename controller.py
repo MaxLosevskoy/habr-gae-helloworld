@@ -2,7 +2,7 @@
 # encoding: utf-8
 """
 controller.py
-
+$Id$
 Created by Roman Kirillov on 2010-01-25.
 """
 import view
