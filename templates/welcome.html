@@ -1,0 +1,10 @@
+{% extends "basic.html" %}
+
+{% block title %}
+Welcome page for {{ username }}
+{% endblock %}
+
+{% block content %}
+<p>Dear {{ username }}!</p>
+<p>Welcome to HelloWorld! &mdash; a simple application to illustrate some features of GAE. Now when you're logged in, you can <a href='/stats'>view your stats</a>. Alternatively, you can <a href="{{ logout_url }}">log out</a> and start all over again.</p>
+{% endblock %}

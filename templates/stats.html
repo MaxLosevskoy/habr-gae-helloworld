@@ -1,0 +1,11 @@
+{% extends "basic.html" %}
+
+{% block title %}
+Stats page for {{ username }}
+{% endblock %}
+
+{% block content %}
+<p>Dear {{ username }}!</p>
+<p>You have logged in into this website {{ hits }} times, the last time it happened on {{ lastVisit }}</p>
+<p><a href="/">Go back</a></p>
+{% endblock %}
